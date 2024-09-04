@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>camping</title>
+</head>
+
+<body>
+    <!-- atalho para comentario Ctrl + ; -->
+    <!-- h1 utilizado para titulos na página, apenas 1 por página -->
+    <h1>teste de Âncoras</h1>
+    <!-- função para hiperlinks -->
+    <a name="info_secundario" href="#"> mais informações abaixo!</a>
+    <p><a href="#info_secundario">vejam fotos do camping!</a></p>
+    <img src="../imagens aula/img1.webp" alt="">
+    <img src="../imagens aula/img2.jpg" alt="">
+    <img src="../imagens aula/img3.jpg" alt="">
+    <!-- ALT + Shift + X copia a linha anterior -->
+    <p><a href="camping.html#info_secundario">Âncora em outra página</a></p>
+    <img src="../imagens aula/img4.jpg" alt="">
+    <img src="../imagens aula/img5.jpg" alt="">
+    <img src="../imagens aula/img6.jpg" alt="">
+
+    <p><a href="camping.html#info_secundario">Voltar ao topo</a></p>
+    <img src="../imagens aula/img1.webp" alt="">
+    <img src="../imagens aula/img3.jpg" alt="">
+    <img src="../imagens aula/img6.jpg" alt="">
+
+
+    <!-- outra página -->
+    <p><a href="./ancoras.html#info">voltar para página Âncoras</a></p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, beatae eius. Explicabo perspiciatis maiores iste placeat. Magnam corrupti illum error distinctio doloremque accusantium doloribus sed, eveniet ducimus eius, delectus quidem!</p>
+    <!-- Alt + Shift + F identar o código -->
+    <div class="seta_voltar_topo"> 
+        <a href="./camping.html#info_secundario"> <img src="../imagens aula/seta.webp" alt=""></a>
+    </div>
+
+</body>
+
+</html>
