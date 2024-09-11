@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ptbr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+
+<body>
+    <!-- tbody é utilizado para criação do corpo da tabela -->
+     <table border="1">
+    <tbody>
+        <!-- inicio linha -->
+        <tr>
+            <!-- thead é cabeçalho -->
+            <th>
+                Marca
+            </th>
+            <th>
+                Modelo
+            </th>
+            <th>
+                ano
+            </th>
+        </tr>
+        <!-- fim linha -->
+
+        <!-- inicio colunas -->
+        <tr>
+            <th rowspan="2">Toyota</th>
+            <td>Corolla</td>
+            <td>2006</td>
+        </tr>
+        <!-- fim das colunas -->
+        <tr>
+            
+            <td>Supra</td>
+            <td>1993</td>
+        </tr>
+        <tr>
+            <th  rowspan="3">Honda</th>
+            <td>Civic</td>
+            <td>2007</td>
+        </tr>
+        <tr>
+            
+            <td>CivicTypeR</td>
+            <td>2023</td>
+        </tr>
+        <tr>
+            
+            <td>NSX</td>
+            <td>1991</td>
+        </tr>
+        <tr>
+            <th>Mitsubishi</th>
+            <td>LancerEVO</td>
+            <td>2020</td>
+        </tr>
+       <th colspan="3">Ultima atualização: 10/09/2024</th>
+    </tbody>
+</table>
+    <!-- tfoot cria um rodapé na tabela -->
+    <tfoot>
+        meu rodape na tabela
+    </tfoot>
+</body>
+</html>
